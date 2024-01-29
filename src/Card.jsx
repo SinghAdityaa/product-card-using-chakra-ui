@@ -14,27 +14,26 @@ export function Card() {
     <Center as="section" bg="gray.100" h="100vh">
       <Box maxW="420px" bg="white" p="6">
         <Image
-          src="https://images.unsplash.com/photo-1667420170858-39d40cb413e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Svartifoss Waterfall"
-          borderRadius="xl"
+          src="https://cdn.pixabay.com/photo/2013/07/13/09/50/yoghurt-156133_1280.png"
+          alt="Svartifoss WaterfallYogaBar Muesli+ Fruit, Nuts & Seeds - 400g"
+          borderRadius="x2"
+        
           objectFit="cover"
           mx="auto"
+          boxSize="250px"
         />
         <HStack mt="5" spacing="3">
-          {["Waterfall", "Nature"].map((item) => (
+          {["healthy", "Nutritions"].map((item) => (
             <Tag key={item} variant="outline">
               {item}
             </Tag>
           ))}
         </HStack>
         <Heading my="4" size="lg">
-          Svartifoss Waterfall
+    YogaBar Muesli+ Fruit, Nuts & Seeds - 400g
         </Heading>
         <Text>
-          Svartifoss is a waterfall in Skaftafell in Vatnajökull National Park
-          in Iceland, and is one of the most popular sights in the park. It is
-          surrounded by dark lava columns, which gave rise to its name. The base
-          of this waterfall is noteworthy for its sharp rocks.
+        Yogurt is a dairy product made by fermenting milk with a bacterial yogurt culture. It provides protein and calcium, and it may enhance healthy probiotic gut bacteria. 
         </Text>
         <Center my="6">
           <Button colorScheme="blue">Learn more</Button>
